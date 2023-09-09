@@ -223,3 +223,54 @@ nav ul li a{
 
 }
 
+@media screen and (max-width:770px){
+    .title-text h1{
+        font-size: 35px;
+
+
+    }
+    .features{
+        flex-basis: 100%;
+    }
+    .features-img{
+        flex-basis: 100%;
+    
+    
+    }
+    .features-img img{
+        width: 100%;
+
+    }
+
+
+    /*---service---*/
+    #service{
+        width: 100%;
+        padding: 70px 0;
+        background: #efefef;
+
+
+    }
+    .service-box{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+
+    }
+.single-service{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.single-service img{
+    width: 100px;
+    border-radius: 7px;
+    
+    
+
+}
+
