@@ -252,9 +252,9 @@ nav ul li a{
 
     }
     .service-box{
-        width: 50%;
+        width: 30%;
         display: flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
         justify-content: center;
         margin: auto;
 
