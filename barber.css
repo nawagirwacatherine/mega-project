@@ -336,6 +336,10 @@ hr{
         hr{
             margin: 5px auto;
         }
+        .single-service:hover .service-desc{
+            bottom: 25% !important;
+            
+        }
     
     
 }
