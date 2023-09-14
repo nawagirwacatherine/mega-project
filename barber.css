@@ -366,6 +366,19 @@ hr{
             box-shadow: 0 10px 20px 3px #009688;
             cursor: pointer;
         }
+        .testimonial-col p{
+            font-size: 14px;
+        }
+        .user{
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .user img{
+            width: 40px;
+            margin-right: 20px;
+            border-radius: 3px;
+        }
     
     
     
