@@ -394,6 +394,13 @@ hr{
         .testimonial-col:hover{
             transform: translate(-7px);
         }
+        @media screen and (max-width: 770px){
+            .testimonial-col{
+                flex-basis: 100%;
+
+            }
+
+        }
     
     
     
