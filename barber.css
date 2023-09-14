@@ -342,7 +342,35 @@ hr{
         }
     
     
-}
+
+        /*----testimonial----*/
+        #testimonial {
+            width: 100px;
+            padding: 100px 0;
+        }
+    }
+        .testimonial-row{
+                 width: 80%;
+                 margin: auto;
+                 display: flex;
+                 justify-content:space-between ;
+                 align-items: flex-start;
+                 flex-wrap: wrap;
+        }
+
+        .testimonial-col{
+            flex-basis: 28%;
+            padding: 10px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            box-shadow: 0 10px 20px 3px #009688;
+            cursor: pointer;
+        }
+    
+    
+    
+    
+
 
 
 
