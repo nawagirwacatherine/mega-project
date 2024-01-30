@@ -1,0 +1,21 @@
+class person (){
+    constuctor(name="Tom", age=20,energy=100){
+    this.name = name;
+    this.age = age;
+    this.energy = energy;
+    }
+    sleep(){
+    if (this.energy>0){
+    this.energy += 10;
+    console.log('Energy is increasing, currently at:'this.energy)
+    
+    }
+    
+    else if (this.energy == 10){
+    this.sleep();
+    }
+    doSomethingFun(){
+    this.energy-=20;
+    console.log('Energy is decreasing, currently at:'this.energy)
+    }
+    }
